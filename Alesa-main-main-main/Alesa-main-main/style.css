@@ -1,0 +1,552 @@
+:root {
+    --buttom: #FFC89A;
+    --font: #FFFFFF;
+    --font-weight: 500px;
+    --font-InterTight: " Inter Tight";
+    --font-CormorantGaramond: "Cormorant Garamond";
+    --line-height: 1.6em;
+}
+
+body {
+    font-family: Inter Tight, Cormorant Garamond;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    font-family: var(--font-InterTight), Sans-serif;
+    text-decoration: none;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+a::before,
+a::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    z-index: -1;
+}
+
+/* ===================menu======================== */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px 8px;
+    border: 1px solid var(--font);
+    border-radius: 50px;
+}
+
+ul li a {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: var(--font);
+    font-family: var(--font-InterTight), Sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.buttom {
+    background-color: var(--buttom);
+    border-radius: 200px;
+    padding: 13px 30px;
+}
+
+.buttom:hover,
+.header-bottom .buttom:hover,
+.about .col-md-5 .buttom:hover,
+.our-villas .detail:hover {
+    background-color: black;
+    transform: scale(0.9);
+    transition: all .4s ease;
+}
+
+.buttom a:hover {
+    color: #FFFFFF;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 850px;
+}
+
+.header {
+    background-image: url("./images/Slider 1 - modern-villa-with-pool-and-deck-with-interior.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    height: 850px;
+    margin: 20px;
+}
+
+nav ul li a:hover,
+.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.21);
+}
+
+/* ==================Dropdown menu======================== */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    list-style: none;
+}
+
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    color: var(--buttom);
+}
+
+.dropdown-icon {
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+.dropdown-menu li a:hover {
+    color: var(--buttom);
+}
+
+.dropdown:hover .dropdown-menu {
+    margin-top: 30px;
+    display: block;
+}
+
+/* ========================================================= */
+.header-middle-title {
+    color: var(--font);
+    font-size: 70px;
+    text-align: center;
+    margin: 25% 0 0;
+    font-family: var(--font-InterTight), "Sans-serif";
+    line-height: 1.1em;
+}
+
+.header-middle-title span {
+    color: var(--buttom);
+    font-size: 75px;
+    font-family: var(--font-CormorantGaramond);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.6em;
+    letter-spacing: -1px;
+}
+
+.header-middle-text {
+    text-align: center;
+    font-family: var(--font-InterTight);
+    line-height: var(--line-height);
+    font-size: 22px;
+    font-weight: 400;
+    color: #E5E5E5;
+}
+
+/* ========================================================= */
+.header-bottom .buttom {
+    background-color: var(--buttom);
+    border-radius: 200px;
+    text-align: center;
+    padding: 20px 65px;
+}
+
+.header-bottom .box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 200px;
+    padding: 15px 15px;
+}
+
+.header-bottom {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 200px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.box-2 {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: rgba(71, 71, 71, 0.1);
+    border-radius: 200px;
+    width: 18%;
+    padding: 9px 15px;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.input::placeholder {
+    color: #FFFFFF;
+    font-family: var(--font-InterTight);
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+/* ===================About======================== */
+.about {
+    margin-top: 150px;
+}
+
+.about .col-md-5 p {
+    font-size: 18px;
+}
+
+.about .col-md-5 h1 a {
+    font-size: 48px;
+    line-height: 1.4em;
+}
+
+.about .col-md-5 .buttom {
+    background-color: var(--buttom);
+    border-radius: 200px;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.about .col-md-5 span {
+    font-family: "Cormorant Infant", " Sans-serif";
+    font-size: 55px;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+
+.about .col-md-7 p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font-InterTight), "Sans-serif";
+    line-height: 1.6em;
+    text-align: justify;
+    color: #575A5F;
+}
+
+.about .col-md-7 .line {
+    margin: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.about .col-md-4 h1 {
+    font-family: var(--font-InterTight), "Sans-serif";
+    font-size: 46px;
+    font-weight: 550;
+    line-height: 1.2em;
+
+}
+
+.about .col-md-4 p {
+    font-family: var(--font-InterTight), "Sans-serif";
+    font-weight: 500;
+    font-size: 20px;
+    color: #575A5F;
+    line-height: 0;
+}
+
+.about .about-img .img-1 {
+    width: 95%;
+    height: 60%;
+}
+
+.about .about-img .img-2 {
+    width: 100%;
+    height: 60%;
+}
+
+.circle {
+    background-color: var(--buttom);
+    border-radius: 200px;
+    padding: 15px 20px;
+}
+
+.about-img .img-container {
+    position: relative;
+}
+
+.img-container .around {
+    position: absolute;
+    top: 100px;
+    bottom: 5%;
+    left: 5%;
+}
+
+.about .circle:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/* ====================Ours villa================================== */
+.our-villas {
+    margin-top: -200px;
+}
+
+.our-villas p {
+    font-family: var(--font-InterTight), "Sans-serif";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.our-villas h1 {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 48px;
+    font-weight: 550;
+    line-height: 1.2em;
+    padding: 0 20%;
+}
+
+.our-villas span {
+    font-family: "Cormorant Infant";
+    font-size: 55px;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+
+.our-villas .start {
+    color: #f0ad4e;
+}
+
+.our-villas .line {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.our-villas h3 {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 28px;
+    font-weight: 550;
+    line-height: 1.2em;
+}
+
+.our-villas .price {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 30px;
+}
+
+.our-villas .date {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #575A5F;
+}
+
+.our-villas .p {
+    font-family: var(--font-InterTight), Sans-serif;
+    color: #575A5F;
+    font-weight: 400;
+}
+
+.our-villas .detail {
+    background-color: var(--buttom);
+    border-radius: 200px;
+    padding: 13px 30px;
+}
+
+.our-villas .detail a:hover {
+    color: #FFFFFF;
+}
+
+.our-villas .col-md-4 {
+    position: relative;
+}
+
+.our-villas .location {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    background: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+/* ================Background Scrolling================= */
+.background-scroll {
+    position: relative;
+    height: 80vh;
+    background-image: url('./images/Our\ villas\ -\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 20px solid white;
+}
+
+.background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.background-content {
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    color: #FFFFFF;
+}
+
+.background-content h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 60px;
+    line-height: 1.3;
+    margin: 0;
+    font-weight: 500;
+    max-width: 80%;
+}
+
+.background-styling {
+    font-family: 'Cormorant Garamond', sans-serif;
+    color: #f1cda9;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.background-scroll .buttom {
+    background-color: var(--buttom);
+    border-radius: 50%;
+    padding: 50px 25px;
+    margin-right: 5%;
+}
+
+.background-scroll .buttom:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/* ========================Reasons============================== */
+.reasons {
+    margin-top: 130px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.reasons .image-left {
+    width: 550px;
+    max-height: 780px;
+}
+
+.reasons .image-right {
+    position: absolute;
+    bottom: -20px;
+    right: -80px;
+    width: 350px;
+    height: auto;
+    border: 20px solid #fff;
+}
+
+.reasons-content {
+    padding: 0 100px;
+}
+
+.reasons-content h2 {
+    font-family: 'Inter Tight', Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2b2b;
+}
+
+.reasons-content h1 {
+    font-family: 'Inter Tight', Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.reasons .styling {
+    font-family: "Cormorant Infant", Sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.benefit-title {
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2b2b2b;
+}
+
+.icon::before {
+
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 15px;
+    content: '\f111';
+    background: #f3ebe5;
+    color: #111;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.reasons .description {
+    font-family: 'Inter Tight', Sans-serif;
+    font-size: 16px;
+    color: #575A5F;
+    margin: 0;
+    text-align: justify;
+}
