@@ -1,16 +1,15 @@
 :root {
-    --buttom: #FFC89A;
-    --font: #FFFFFF;
+    --buttom: #ffc89a;
+    --font: #ffffff;
     --font-weight: 500px;
     --font-InterTight: " Inter Tight";
     --font-CormorantGaramond: "Cormorant Garamond";
     --line-height: 1.6em;
-    --p: #E5E5E5;
+    --p: #e5e5e5;
 }
 
 body {
     font-family: Inter Tight, Cormorant Garamond;
-
 }
 
 * {
@@ -89,12 +88,11 @@ ul li a {
 .News .view:hover {
     background-color: black;
     transform: scale(0.9);
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 .buttom a:hover {
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .overlay {
@@ -134,7 +132,6 @@ nav ul li a:hover,
     border-radius: 0;
     list-style: none;
 }
-
 
 .dropdown-menu li a {
     display: block;
@@ -189,7 +186,7 @@ nav ul li a:hover,
     line-height: var(--line-height);
     font-size: 22px;
     font-weight: 400;
-    color: #E5E5E5;
+    color: #e5e5e5;
 }
 
 /* ========================================================= */
@@ -197,7 +194,7 @@ nav ul li a:hover,
     background-color: var(--buttom);
     border-radius: 200px;
     text-align: center;
-    padding: 20px 65px;
+    padding: 15px 0;
 }
 
 .header-bottom .box {
@@ -220,19 +217,18 @@ nav ul li a:hover,
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     background: rgba(71, 71, 71, 0.1);
     border-radius: 200px;
-    width: 18%;
     padding: 9px 15px;
 }
 
 .input {
     background: transparent;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     outline: none;
 }
 
 .input::placeholder {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: var(--font-InterTight);
     font-size: 16px;
     line-height: 1.6em;
@@ -274,7 +270,7 @@ nav ul li a:hover,
     font-family: var(--font-InterTight), "Sans-serif";
     line-height: 1.6em;
     text-align: justify;
-    color: #575A5F;
+    color: #575a5f;
 }
 
 .about .col-md-7 .line {
@@ -287,14 +283,13 @@ nav ul li a:hover,
     font-size: 46px;
     font-weight: 550;
     line-height: 1.2em;
-
 }
 
 .about .col-md-4 p {
     font-family: var(--font-InterTight), "Sans-serif";
     font-weight: 500;
     font-size: 20px;
-    color: #575A5F;
+    color: #575a5f;
     line-height: 0;
 }
 
@@ -327,7 +322,7 @@ nav ul li a:hover,
 
 .about .circle:hover {
     background-color: black;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /* ====================Ours villa================================== */
@@ -382,12 +377,12 @@ nav ul li a:hover,
     font-family: var(--font-InterTight), Sans-serif;
     font-size: 20px;
     font-weight: 400;
-    color: #575A5F;
+    color: #575a5f;
 }
 
 .our-villas .p {
     font-family: var(--font-InterTight), Sans-serif;
-    color: #575A5F;
+    color: #575a5f;
     font-weight: 400;
 }
 
@@ -398,7 +393,7 @@ nav ul li a:hover,
 }
 
 .our-villas .detail a:hover {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .our-villas .col-md-4 {
@@ -421,7 +416,7 @@ nav ul li a:hover,
 .background-scroll {
     position: relative;
     height: 80vh;
-    background-image: url('./images/Our\ villas\ -\ 2.jpg');
+    background-image: url("./images/Our\ villas\ -\ 2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -433,18 +428,16 @@ nav ul li a:hover,
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-
-
 }
 
 .background-content {
     position: absolute;
     bottom: 40px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .background-content h2 {
-    font-family: 'Inter Tight', sans-serif;
+    font-family: "Inter Tight", sans-serif;
     font-size: 60px;
     line-height: 1.3;
     margin: 0;
@@ -453,7 +446,7 @@ nav ul li a:hover,
 }
 
 .background-styling {
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: "Cormorant Garamond", sans-serif;
     color: #f1cda9;
     font-size: 60px;
     font-style: italic;
@@ -469,7 +462,7 @@ nav ul li a:hover,
 
 .background-scroll .buttom:hover {
     background-color: black;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /* ========================Reasons============================== */
@@ -500,14 +493,14 @@ nav ul li a:hover,
 }
 
 .reasons-content h2 {
-    font-family: 'Inter Tight', Sans-serif;
+    font-family: "Inter Tight", Sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #2b2b2b;
 }
 
 .reasons-content h1 {
-    font-family: 'Inter Tight', Sans-serif;
+    font-family: "Inter Tight", Sans-serif;
     font-size: 48px;
     font-weight: 600;
     text-align: left;
@@ -528,11 +521,10 @@ nav ul li a:hover,
 }
 
 .icon::before {
-
-    font-family: 'Font Awesome 6 Free';
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     font-size: 15px;
-    content: '\f111';
+    content: "\f111";
     background: #f3ebe5;
     color: #111;
     width: 40px;
@@ -543,11 +535,10 @@ nav ul li a:hover,
     justify-content: center;
 }
 
-
 .reasons .description {
-    font-family: 'Inter Tight', Sans-serif;
+    font-family: "Inter Tight", Sans-serif;
     font-size: 16px;
-    color: #575A5F;
+    color: #575a5f;
     margin: 0;
     text-align: justify;
 }
@@ -555,7 +546,7 @@ nav ul li a:hover,
 /* =================Amenities========================== */
 .background-amenities {
     height: 80vh;
-    background-color: #FFF8F2;
+    background-color: #fff8f2;
     border: 20px solid white;
 }
 
@@ -564,7 +555,7 @@ nav ul li a:hover,
 }
 
 .background-amenities .box {
-    border: 1px solid #6F6F6F4A;
+    border: 1px solid #6f6f6f4a;
     padding: 40px 0 40px 20px;
     flex-direction: column;
     line-height: 100px;
@@ -588,7 +579,7 @@ nav ul li a:hover,
 
 .background-amenities .box:hover,
 .background-amenities .active {
-    background: #F3EBE5;
+    background: #f3ebe5;
 }
 
 .background-amenities .box:hover .icon-circle,
@@ -606,7 +597,7 @@ nav ul li a:hover,
 }
 
 .background-amenities h1 {
-    font-family: 'Inter Tight', Sans-serif;
+    font-family: "Inter Tight", Sans-serif;
     font-size: 48px;
     font-weight: 600;
 }
@@ -632,11 +623,6 @@ nav ul li a:hover,
     object-fit: cover;
 }
 
-.photos,
-.row-1,
-.row-2 {
-    margin: 30px 35px;
-}
 
 .photos .photo-2 {
     width: 23.5%;
@@ -651,21 +637,21 @@ nav ul li a:hover,
 }
 
 .photos-content h2 {
-    font-family: 'Inter Tight', sans-serif;
+    font-family: "Inter Tight", sans-serif;
     font-size: 20px;
     font-weight: 600;
     margin-top: 150px;
 }
 
 .photos-content h1 {
-    font-family: 'Inter Tight', sans-serif;
+    font-family: "Inter Tight", sans-serif;
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
 .photos-content .photo-style {
-    font-family: 'Cormorant Infant', serif;
+    font-family: "Cormorant Infant", serif;
     font-style: italic;
     font-size: 50px;
     font-weight: lighter;
@@ -675,15 +661,29 @@ nav ul li a:hover,
     position: relative;
 }
 
-.photo-container:hover .photo-overlay {
+.photo-container:hover .photo-overlay,
+.photo-container:hover .photo-overlay-2 {
     opacity: 1;
 }
 
 .photo-overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 1.9%;
+    width: 96.3%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 3.8%;
+    width: 93%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
@@ -704,24 +704,28 @@ nav ul li a:hover,
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    padding: 0 -10px;
 }
 
 .photo-view:hover {
     background: #b88a5e;
 }
 
+.row-2 {
+    margin-top: 30px;
+}
+
 /* ================================== */
 .testimonials {
-    background: #0E1824;
+    background: #0e1824;
     padding: 110px 80px;
     margin-top: 170px;
     border: 20px solid #fff;
 }
 
-
 .testimonials .col-md-3 {
     padding-left: 20px;
-    background: #0E1824;
+    background: #0e1824;
 }
 
 .testimonials h1 {
@@ -753,7 +757,7 @@ nav ul li a:hover,
 }
 
 .card p {
-    color: #E5E5E5;
+    color: #e5e5e5;
     font-family: var(--font-InterTight), Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -785,9 +789,14 @@ nav ul li a:hover,
 }
 
 .News .buttom {
-    padding: 13px 27px;
+    padding: 13px 2px;
     background-color: var(--buttom);
     border-radius: 200px;
+    text-align: center;
+}
+
+.News .blog {
+    justify-content: space-between;
 }
 
 .News .buttom:hover {
@@ -803,7 +812,6 @@ nav ul li a:hover,
     object-fit: cover;
     height: 55vh;
 }
-
 
 .News .news-blog {
     position: relative;
@@ -825,12 +833,11 @@ nav ul li a:hover,
     width: 98.6%;
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
-
 }
 
 /* ===============footer========================= */
 .footer-background {
-    background: #0E1824;
+    background: #0e1824;
     margin-top: 170px;
     height: 65vh;
 }
@@ -862,7 +869,7 @@ nav ul li a:hover,
     border-radius: 200px;
     padding: 13px 27px;
     background: #192431;
-    border: 1px solid #6F6F6F4A;
+    border: 1px solid #6f6f6f4a;
 }
 
 .footer-background input::placeholder {
@@ -895,4 +902,163 @@ nav ul li a:hover,
     padding-top: 45px;
     border-top: 1px solid #1f2937;
     margin-top: 70px;
+}
+
+.hehe {
+    display: none;
+}
+
+.footer-background .contact {
+    margin-left: 9%;
+}
+
+.footer-background .social {
+    text-align: center;
+}
+
+.footer-background .email {
+    width: 195px;
+}
+
+.footer-background .quick {
+    margin-left: 7%;
+}
+
+@media (max-width: 767.98px) {
+    .hehe {
+        display: block;
+    }
+
+    .huhu {
+        display: none;
+    }
+
+    .header-bottom {
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 0;
+        margin-top: 50px;
+    }
+
+    .header-bottom .box,
+    .box-2 {
+        margin-bottom: 10px;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 1150px;
+    }
+
+    .header {
+        background-image: url("./images/Slider 1 - modern-villa-with-pool-and-deck-with-interior.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-height: 100%;
+        height: 1150px;
+        margin: 20px;
+    }
+
+    /* ========================================================== */
+
+    .reasons .image-left {
+        width: 400px;
+        max-height: 780px;
+    }
+
+    .reasons .image-right {
+        position: absolute;
+        bottom: -20px;
+        right: -15px;
+        width: 300px;
+        height: auto;
+        border: 20px solid #fff;
+    }
+
+    .footer-background {
+        height: 190vh;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    /* =========================================================== */
+    .photo-container {
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .row-2 {
+        margin-top: 0;
+    }
+
+    .photo-overlay {
+        position: absolute;
+        top: 0;
+        left: 2.5%;
+        width: 95%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo-overlay-2 {
+        position: absolute;
+        top: 0;
+        left: 2.7%;
+        width: 94.9%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* ============================================================ */
+    a::before,
+    a::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: 0;
+        bottom: -10px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .footer-background h3 {
+        margin-top: 20%;
+        color: #fff;
+    }
+
+    .footer-background .contact {
+        margin-left: 0;
+    }
+
+    .footer-background .social {
+        text-align: left;
+    }
+
+    .footer-background .quick {
+        margin-left: 0%;
+    }
+
+    .footer-background .email {
+        width: 100%;
+    }
+
+    .footer-background .subscribe {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        text-align: right
+    }
 }

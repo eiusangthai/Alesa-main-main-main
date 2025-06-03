@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
@@ -18,12 +18,13 @@
 
 <body>
     <!-- menu -->
+
     <header class="header">
         <div class="overlay">
             <div class="container-xxl">
                 <div class="header-top">
-                    <img src="./images/Logo-White.png" alt="logo" class="logo">
-                    <nav class="">
+                    <img src="./images/Logo-White.png" alt="logo" class="logo huhu" />
+                    <nav class="huhu">
                         <ul class="d-flex">
                             <li><a href="#" class="active">Home</a></li>
                             <li><a href="#">About</a></li>
@@ -56,38 +57,92 @@
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>
-                    <div class="buttom "><a href="#">Reserve Now</a></div>
+                    <nav class="hehe col-12 navbar">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img src="./images/Logo-White.png" alt="logo"
+                                    class="logo" /></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="buttom huhu"><a href="#">Reserve Now</a></div>
                 </div>
                 <h1 class="header-middle-title">Experience The Dream <span>Vacation</span> At Altesa</h1>
-                <div class="header-middle-text">
-                    Escape To Paradise In Our Luxurious Villas & Resorts
-                </div>
-                <div class="header-bottom d-flex justify-content-between align-items-center">
-                    <div class="box">
-                        <input name="mf-checkin-date" placeholder="Check In " aria-invalid="false" value="" type="text"
-                            readonly="readonly" class="input">
-                    </div>
-                    <div class="box">
-                        <input name="mf-checkout-date" placeholder="Check out " aria-invalid="false" value=""
-                            type="text" readonly="readonly" class="input">
-                    </div>
-                    <div class="box">
-                        <input type="number" step="any" name="mf-childs" placeholder="Number of Guest "
-                            aria-invalid="false" class="input">
-                    </div>
-                    <div class="box-2 dropdown-center">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" style="background: transparent; border: none;">
-                            Select Villa
-                        </a>
-                        <ul class="dropdown-menu" style="width: 220px; border-radius: none;">
-                            <li><a class="dropdown-item" href="#">Whispering Pines Villa</a></li>
-                            <li><a class="dropdown-item" href="#">Mountain Serenity Villa</a></li>
-                            <li><a class="dropdown-item" href="#">Modern Bliss Villa</a></li>
-                        </ul>
-                    </div>
-                    <div class="buttom">
-                        <a href="#">Book Now</a>
+                <div class="header-middle-text">Escape To Paradise In Our Luxurious Villas & Resorts</div>
+                <div class="p-3">
+                    <div class="header-bottom row align-items-center justify-content-between">
+                        <div class="col-md-2 col-12 box">
+                            <input name="mf-checkin-date" placeholder="Check In " aria-invalid="false" value=""
+                                type="text" readonly="readonly" class="input" />
+                        </div>
+                        <div class="col-md-2 col-12 box">
+                            <input name="mf-checkout-date" placeholder="Check out " aria-invalid="false" value=""
+                                type="text" readonly="readonly" class="input" />
+                        </div>
+                        <div class="col-md-2 col-12 box">
+                            <input type="number" step="any" name="mf-childs" placeholder="Number of Guest "
+                                aria-invalid="false" class="input" />
+                        </div>
+                        <div class="col-md-2 col-12 dropdown-center box-2">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"
+                                style="background: transparent; border: none">
+                                Select Villa
+                            </a>
+                            <ul class="dropdown-menu" style="width: 220px; border-radius: none">
+                                <li><a class="dropdown-item" href="#">Whispering Pines Villa</a></li>
+                                <li><a class="dropdown-item" href="#">Mountain Serenity Villa</a></li>
+                                <li><a class="dropdown-item" href="#">Modern Bliss Villa</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-12 buttom">
+                            <a href="#">Book Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,24 +155,23 @@
                 <div class="row justify-content-between">
                     <div class="col-md-5 mt-4">
                         <p><a href="#">About Us</a></p>
-                        <h1><a href="#">Welcome To, <span> Altesa </span> The Best Destination For Tranquility</a></h1>
-                        <div class="buttom col-md-4">
+                        <h1>
+                            <a href="#">Welcome To, <span> Altesa </span> The Best Destination For Tranquility</a>
+                        </h1>
+                        <div class="buttom col-md-4 col-5 mb-4">
                             <a href="#">More About Us</a>
                         </div>
                     </div>
                     <div class="col-md-7">
                         <p class="">
                             Altesa was founded in 1990 with a vision to create exceptional hospitality experiences that
-                            combine
-                            natural beauty with world-class amenities and service. Our commitment to excellence is
-                            reflected
-                            in
-                            every aspect of our properties, from the thoughtfully designed architecture to the lush
-                            landscaped
-                            gardens.
+                            combine natural beauty with world-class amenities and
+                            service. Our commitment to excellence is reflected in every aspect of our properties, from
+                            the thoughtfully designed architecture to the lush
+                            landscaped gardens.
                         </p>
-                        <div class="line "></div>
-                        <div class="d-flex ">
+                        <div class="line"></div>
+                        <div class="d-flex">
                             <div class="col-md-4">
                                 <h1>150 K+</h1>
                                 <p>Guest Are Served</p>
@@ -136,17 +190,16 @@
                 <div class="row mt-5">
                     <div class="d-flex about-img justify-content-between">
                         <div class="img-container col-md-5">
-                            <img src="./images/About Us - 1.jpg" alt="" class="img-1">
+                            <img src="./images/About Us - 1.jpg" alt="" class="img-1" />
                             <div class="d-flex align-items-center around">
                                 <div class="circle"><i class="fa-solid fa-caret-right fa-xl"></i></div>
-                                <div class="p-2"><a href="#" style="color: #FFFF;">Play Video</a></div>
+                                <div class="p-2"><a href="#" style="color: #ffff">Play Video</a></div>
                             </div>
                         </div>
                         <img src="./images/About us - 2 - modern-villa-with-pool-and-deck-with-interior-1.jpg" alt=""
-                            class="img-2">
+                            class="img-2" />
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section class="our-villas">
@@ -160,7 +213,7 @@
                 <div class="row mt-5">
                     <div class="col-md-4">
                         <div class="location">Denpasar</div>
-                        <img src="./images/Our Villas - 1.jpg" alt="" style="width: 100%;">
+                        <img src="./images/Our Villas - 1.jpg" alt="" style="width: 100%" />
                         <div class="start mt-4 mb-2">
                             <i class="fa-solid fa-star fa-sm"></i>
                             <i class="fa-solid fa-star fa-sm"></i>
@@ -183,9 +236,8 @@
                                 <div class="p">12 Guests</div>
                             </div>
                         </div>
-                        <p class="mt-2 line">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                            ullamcorper mattis, pulvinar </p>
+                        <p class="mt-2 line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                            luctus nec ullamcorper mattis, pulvinar</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="price">$150.00<span class="date">/Night</span></div>
                             <div class="detail"><a href="#">More Detail</a></div>
@@ -199,23 +251,24 @@
             <div class="background-overlay">
                 <div class="container-xxl">
                     <div class="background-content d-flex justify-content-between align-items-center">
-                        <h2>Create beautiful <span class="background-styling">Memories</span> Full Of
-                            Tranquility, Book Your Villa Now</h2>
+                        <h2>Create beautiful <span class="background-styling">Memories</span> Full Of Tranquility, Book
+                            Your Villa Now</h2>
                         <div class="buttom"><a href="#">Book Now</a></div>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- Reasons -->
         <section class="reasons">
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-12">
                         <div class="image-container">
-                            <img src="./images/Why choose us - 1.jpg" class="image-left">
-                            <img src="./images/Why choose us - 2.jpg" class="image-right">
+                            <img src="./images/Why choose us - 1.jpg" class="image-left" />
+                            <img src="./images/Why choose us - 2.jpg" class="image-right" />
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-12">
                         <div class="reasons-content">
                             <h2>Why Choose Us?</h2>
                             <h1 class="mt-3">Reasons To Make Luxe Your Place Of <span class="styling">Tranquility</span>
@@ -225,10 +278,10 @@
                                     <span class="icon"></span>
                                     <div class="benefit-text">
                                         <h3 class="benefit-title ps-3">Beautiful Architecture</h3>
-                                        <p class="description ps-3 ">Lorem ipsum dolor sit amet, consectetur
-                                            adipiscing
-                                            elit,
-                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p class="description ps-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -248,8 +301,7 @@
                     <div class="col-md-3">
                         <div class="box active">
                             <div class="icon-circle align-items-center d-flex justify-content-center"><i
-                                    class="fa-solid fa-water-ladder"></i>
-                            </div>
+                                    class="fa-solid fa-water-ladder"></i></div>
                             <div class="title">Private Pools</div>
                         </div>
                     </div>
@@ -263,65 +315,64 @@
                     <h2>Our Gallery</h2>
                     <h1>Some of our photo <span class="photo-style">Galleries</span></h1>
                 </div>
-                <div class="row-1">
-                    <div class="d-flex justify-content-between">
-                        <div class="photo-container">
-                            <img src="./images/Our Villas - 1.jpg" alt="">
-                            <div class="photo-overlay">
-                                <button type="button" class="photo-view">
-                                    <i class="fa-solid fa-plus"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="photo-container"><img src="./images/About Us - 1.jpg" alt="">
-                                <div class="photo-overlay">
-                                    <button type="button" class="photo-view">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="photo-container">
-                            <div><img src="images/Why choose us - 1.jpg" alt="">
-                                <div class="photo-overlay">
-                                    <button type="button" class="photo-view">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                </div>
-                            </div>
+                <div class="row row-1">
+                    <div class="col-md-6 col-12 photo-container justify-content-center">
+                        <img src="./images/Our Villas - 1.jpg" alt="" />
+                        <div class="photo-overlay">
+                            <button type="button" class="photo-view">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class="row-2">
-                    <div class="d-flex justify-content-between">
-                        <div class="photo-2 photo-container">
-                            <img src="./images/photo-2.jpg" alt="">
-                            <div class="photo-overlay">
-                                <button type="button" class="photo-view">
-                                    <i class="fa-solid fa-plus"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="photo-1 photo-container">
-                            <img src="./images/photo-1.jpg" alt="">
-                            <div class="photo-overlay">
-                                <button type="button" class="photo-view">
-                                    <i class="fa-solid fa-plus"></i>
-                                </button>
-                            </div>
-                        </div>
 
-                        <div class="photo-container">
-                            <img src="./images/About us - 2 - modern-villa-with-pool-and-deck-with-interior-1.jpg"
-                                alt="">
-                            <div class="photo-overlay">
+                    <div class="col-md-3 col-12 photo-container">
+                        <img src="./images/About Us - 1.jpg" alt="" />
+                        <div class="photo-overlay-2">
+                            <button type="button" class="photo-view">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-12 photo-container">
+                        <div>
+                            <img src="images/Why choose us - 1.jpg" alt="" />
+                            <div class="photo-overlay-2">
                                 <button type="button" class="photo-view">
                                     <i class="fa-solid fa-plus"></i>
                                 </button>
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="row row-2">
+                    <div class="col-md-3 col-12 photo-container">
+                        <img src="./images/photo-2.jpg" alt="" />
+                        <div class="photo-overlay-2">
+                            <button type="button" class="photo-view">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 photo-container">
+                        <img src="./images/photo-1.jpg" alt="" />
+                        <div class="photo-overlay-2">
+                            <button type="button" class="photo-view">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12 photo-container">
+                        <img src="./images/About us - 2 - modern-villa-with-pool-and-deck-with-interior-1.jpg" alt="" />
+                        <div class="photo-overlay">
+                            <button type="button" class="photo-view">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -329,12 +380,10 @@
         <section class="testimonials text-white">
             <div class="text-center mb-5">
                 <p>Testimonials</p>
-                <h1>
-                    What Guests <span>Saying?</span>
-                </h1>
+                <h1>What Guests <span>Saying?</span></h1>
             </div>
 
-            <div id="testimonialCarousel" class="carousel slide " data-bs-ride="carousel">
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
@@ -344,16 +393,18 @@
                                 <div class="card text-white">
                                     <div class="d-flex align-items-center mb-4">
                                         <img src="./images/Customer 1.jpg" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h2 class="mb-0 fw-bold">Dale Mendoza</h2>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"Our family vacation at this villa exceeded all our expectations.
-                                        The spacious rooms and well-equipped kitchen made us feel right at home. The
-                                        kids loved the dedicated play area and the beach access, while we enjoyed the
-                                        spa services."</p>
+                                    <p>
+                                        "Our family vacation at this villa exceeded all our expectations. The spacious
+                                        rooms and well-equipped kitchen made us feel right at
+                                        home. The kids loved the dedicated play area and the beach access, while we
+                                        enjoyed the spa services."
+                                    </p>
                                 </div>
                             </div>
                             <!-- Testimonial 2 -->
@@ -361,14 +412,13 @@
                                 <div class="card bg-secondary text-white h-100 p-3">
                                     <div class="d-flex align-items-center mb-4">
                                         <img src="https://i.pravatar.cc/50?img=2" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Waldo Buckley</h6>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"We were blown away by the tranquility and pool. Perfect getaway."
-                                    </p>
+                                    <p>"We were blown away by the tranquility and pool. Perfect getaway."</p>
                                 </div>
                             </div>
                             <!-- Testimonial 3 -->
@@ -376,7 +426,7 @@
                                 <div class="card bg-secondary text-white h-100 p-3">
                                     <div class="d-flex align-items-center mb-3">
                                         <img src="https://i.pravatar.cc/50?img=3" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Dale Mendoza</h6>
                                             <small>Our Customer</small>
@@ -391,14 +441,13 @@
                                 <div class="card bg-secondary text-white h-100 p-3">
                                     <div class="d-flex align-items-center mb-3">
                                         <img src="https://i.pravatar.cc/50?img=4" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Alice Maxwell</h6>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"Perfect for our honeymoon. Sunset views and hot tub were amazing."
-                                    </p>
+                                    <p>"Perfect for our honeymoon. Sunset views and hot tub were amazing."</p>
                                 </div>
                             </div>
                         </div>
@@ -410,16 +459,18 @@
                                 <div class="card text-white">
                                     <div class="d-flex align-items-center mb-4">
                                         <img src="./images/Customer 1.jpg" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h2 class="mb-0 fw-bold">Dale Mendoza</h2>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"Our family vacation at this villa exceeded all our expectations.
-                                        The spacious rooms and well-equipped kitchen made us feel right at home. The
-                                        kids loved the dedicated play area and the beach access, while we enjoyed the
-                                        spa services."</p>
+                                    <p>
+                                        "Our family vacation at this villa exceeded all our expectations. The spacious
+                                        rooms and well-equipped kitchen made us feel right at
+                                        home. The kids loved the dedicated play area and the beach access, while we
+                                        enjoyed the spa services."
+                                    </p>
                                 </div>
                             </div>
                             <!-- Testimonial 2 -->
@@ -427,14 +478,13 @@
                                 <div class="card bg-secondary text-white h-100 p-3">
                                     <div class="d-flex align-items-center mb-4">
                                         <img src="https://i.pravatar.cc/50?img=2" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Waldo Buckley</h6>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"We were blown away by the tranquility and pool. Perfect getaway."
-                                    </p>
+                                    <p>"We were blown away by the tranquility and pool. Perfect getaway."</p>
                                 </div>
                             </div>
                             <!-- Testimonial 3 -->
@@ -442,7 +492,7 @@
                                 <div class="card bg-secondary text-white h-100 p-3">
                                     <div class="d-flex align-items-center mb-3">
                                         <img src="https://i.pravatar.cc/50?img=3" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Dale Mendoza</h6>
                                             <small>Our Customer</small>
@@ -457,14 +507,13 @@
                                 <div class="card bg-secondary text-white h-100 p-3">
                                     <div class="d-flex align-items-center mb-3">
                                         <img src="https://i.pravatar.cc/50?img=4" class="rounded-circle me-3" width="50"
-                                            height="50">
+                                            height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Alice Maxwell</h6>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"Perfect for our honeymoon. Sunset views and hot tub were amazing."
-                                    </p>
+                                    <p>"Perfect for our honeymoon. Sunset views and hot tub were amazing."</p>
                                 </div>
                             </div>
                         </div>
@@ -488,16 +537,16 @@
         <section class="News">
             <div class="container-xxl">
                 <p>Blog &amp; News</p>
-                <div class="d-flex align-items-center justify-content-between">
-                    <div>
+                <div class="row  align-items-center blog">
+                    <div class="col-md-6 col-12">
                         <h1>Our Latest <span class="style-new">Blog</span> &amp; News</h1>
                     </div>
-                    <div class="buttom"><a href="#">View All</a></div>
+                    <div class="buttom col-md-1 col-3"><a href="#">View All</a></div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-4">
                         <div class="news-blog">
-                            <img src="./images/Blog 1.jpg" alt="">
+                            <img src="./images/Blog 1.jpg" alt="" />
                             <div class="post-content">
                                 <h3>10 Ways Villas Can Make Your Holiday Enjoyable</h3>
                                 <p><i class="fa-solid fa-clock clock-icon"></i> Dec 20, 2024</p>
@@ -507,26 +556,28 @@
                 </div>
             </div>
         </section>
-        <footer class="mt-5 footer-background">
+        <footer class="footer-background">
             <div class="container-xxl">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-12 mb-4">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-7 col-12  ">
                                 <img src="./images/Logo-White.png" alt="Altesa Logo" width="241px" height="77px"
-                                    style="margin-top: 50%;">
-                                <p class="mt-3 description">Welcome to Villa Paradise, where luxury meets tranquility in
-                                    the most
-                                    breathtaking
-                                    locations around the world.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <input type="email" class="email" style="width: 195px;"
-                                        placeholder="Your Email Address">
-                                    <div class="subscribe"><a href="#"> <i class="fa-solid fa-envelope-open-text"></i>
-                                            Subscribe</a></div>
+                                    style="margin-top: 50%" />
+                                <p class="description">
+                                    Welcome to Villa Paradise, where luxury meets tranquility in the most breathtaking
+                                    locations around the world.
+                                </p>
+                                <div class="row  justify-content-between">
+                                    <div class="col-md-2 col-12">
+                                        <input type="email" class="email" placeholder="Your Email Address" />
+                                    </div>
+                                    <div class="col-md-5 col-12 subscribe">
+                                        <a href="#"> <i class="fa-solid fa-envelope-open-text"></i> Subscribe</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 ms-5">
+                            <div class="col-md-4 col-12 quick">
                                 <h3>Quick Menu</h3>
                                 <ul>
                                     <li><a href="#">Home</a></li>
@@ -538,9 +589,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+
+                    <div class="col-md-6 col-12">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-12 ">
                                 <h3>Support</h3>
                                 <ul>
                                     <li><a href="#">FAQ</a></li>
@@ -550,41 +602,38 @@
                                     <li><a href="#">Sitemap</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-12 ">
                                 <h3>Contact Info</h3>
                                 <ul>
-                                    <li><a href="#">A: Building W 13th Parks <span style="margin-left: 9%;">Suite
-                                                559, Denver</span></a></li>
+                                    <li><a href="#">A: Building W 13th Parks <span class="contact">Suite 559,
+                                                Denver</span></a></li>
                                     <li><a href="#">P: +0 (555) 123 45 67</a></li>
                                     <li><a href="#">E: altesa@support.com</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
-                                <h3 class="text-center">Social Media</h3>
-                                <ul class="text-center">
-                                    <li>
-                                        <a href="#">Facebook</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Instagram</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Twitter</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">YouTube</a>
-                                    </li>
+                            <div class="col-md-4 col-12 social">
+                                <h3>Social Media</h3>
+                                <ul>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">YouTube</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class=" footer-bottom d-flex justify-content-between align-items-center">
-                    <div> Copyright © 2024 All rights reserved.</div>
-                    <div>Villa &amp; Resort Template Kit by codeinsolutions</div>
+                <div class="row footer-bottom justify-content-between align-items-center">
+                    <div class="col-md-2 col-12 ">
+                        <small>© 2024 All rights reserved.</small>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <small>Villa & Resort Template Kit by codeinsolutions</small>
+                    </div>
                 </div>
             </div>
         </footer>
+
     </body>
     <script src="./index.js"></script>
 </body>
