@@ -5,6 +5,7 @@
     --font-InterTight: " Inter Tight";
     --font-CormorantGaramond: "Cormorant Garamond";
     --line-height: 1.6em;
+    --p: #E5E5E5;
 }
 
 body {
@@ -84,7 +85,8 @@ ul li a {
 .buttom:hover,
 .header-bottom .buttom:hover,
 .about .col-md-5 .buttom:hover,
-.our-villas .detail:hover {
+.our-villas .detail:hover,
+.News .view:hover {
     background-color: black;
     transform: scale(0.9);
     transition: all .4s ease;
@@ -438,7 +440,6 @@ nav ul li a:hover,
 .background-content {
     position: absolute;
     bottom: 40px;
-    left: 50px;
     color: #FFFFFF;
 }
 
@@ -549,4 +550,349 @@ nav ul li a:hover,
     color: #575A5F;
     margin: 0;
     text-align: justify;
+}
+
+/* =================Amenities========================== */
+.background-amenities {
+    height: 80vh;
+    background-color: #FFF8F2;
+    border: 20px solid white;
+}
+
+.background-amenities .row {
+    margin: 10% 0;
+}
+
+.background-amenities .box {
+    border: 1px solid #6F6F6F4A;
+    padding: 40px 0 40px 20px;
+    flex-direction: column;
+    line-height: 100px;
+    margin: 15px 0;
+}
+
+.icon-circle {
+    background: #f3ebe5;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.background-amenities .box .title {
+    font-family: var(--font-InterTight), sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b2b2b;
+    margin-bottom: -50px;
+}
+
+.background-amenities .box:hover,
+.background-amenities .active {
+    background: #F3EBE5;
+}
+
+.background-amenities .box:hover .icon-circle,
+.active .icon-circle {
+    background: #111;
+}
+
+.background-amenities .box:hover .icon-circle i,
+.active .icon-circle i {
+    color: #fff;
+}
+
+.icon-circle i {
+    font-size: 26px;
+}
+
+.background-amenities h1 {
+    font-family: 'Inter Tight', Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.background-amenities p {
+    font-size: 20px;
+    color: #2b2b2b;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.background-amenities span {
+    font-family: "Cormorant Infant", Sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+/* ==========Photos=========== */
+.photos img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.photos,
+.row-1,
+.row-2 {
+    margin: 30px 35px;
+}
+
+.photos .photo-2 {
+    width: 23.5%;
+}
+
+.photos .photo-1 {
+    width: 23%;
+}
+
+.photos-content {
+    text-align: center;
+}
+
+.photos-content h2 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+
+.photos-content h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.photos-content .photo-style {
+    font-family: 'Cormorant Infant', serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo-container:hover .photo-overlay {
+    opacity: 1;
+}
+
+.photo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-view {
+    background: #dbaa78;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.photo-view:hover {
+    background: #b88a5e;
+}
+
+/* ================================== */
+.testimonials {
+    background: #0E1824;
+    padding: 110px 80px;
+    margin-top: 170px;
+    border: 20px solid #fff;
+}
+
+
+.testimonials .col-md-3 {
+    padding-left: 20px;
+    background: #0E1824;
+}
+
+.testimonials h1 {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.testimonials p {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.testimonials span {
+    font-family: "Cormorant Infant", "Sans-serif";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.2em;
+    color: var(--buttom);
+}
+
+.card {
+    padding: 50px;
+    background: #192431;
+}
+
+.card p {
+    color: #E5E5E5;
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.card h1 {
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 20px;
+    font-weight: var(--font-weight);
+    line-height: 1.6em;
+}
+
+.card small {
+    color: var(--buttom);
+    font-family: var(--font-InterTight), Sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.6em;
+}
+
+.testimonials .btn {
+    background: var(--buttom);
+}
+
+/* News */
+.News {
+    margin-top: 150px;
+}
+
+.News .buttom {
+    padding: 13px 27px;
+    background-color: var(--buttom);
+    border-radius: 200px;
+}
+
+.News .buttom:hover {
+    background: #111;
+}
+
+.News .buttom:hover a {
+    color: #fff;
+}
+
+.News .news-blog img {
+    width: 98.6%;
+    object-fit: cover;
+    height: 55vh;
+}
+
+
+.News .news-blog {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 30px 20px;
+    color: white;
+}
+
+.news-blog::before {
+    content: "";
+    position: absolute;
+    width: 98.6%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+
+}
+
+/* ===============footer========================= */
+.footer-background {
+    background: #0E1824;
+    margin-top: 170px;
+    height: 65vh;
+}
+
+.footer-background .description {
+    color: var(--p);
+    text-align: justify;
+}
+
+.footer-background p {
+    color: var(--p);
+}
+
+.footer-background a:hover {
+    color: var(--buttom);
+}
+
+.footer-background .subscribe {
+    padding: 13px 27px;
+    background-color: var(--buttom);
+    border-radius: 200px;
+}
+
+.footer-background .subscribe:hover {
+    background: var(--p);
+}
+
+.footer-background .email {
+    border-radius: 200px;
+    padding: 13px 27px;
+    background: #192431;
+    border: 1px solid #6F6F6F4A;
+}
+
+.footer-background input::placeholder {
+    color: var(--p);
+}
+
+.footer-background h3 {
+    margin-top: 90%;
+    color: #fff;
+}
+
+.footer-background ul {
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-left: -20px;
+    line-height: 1.6em;
+}
+
+.footer-background ul li a {
+    line-height: 2.2em;
+    font-weight: lighter;
+    color: var(--p);
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 45px;
+    border-top: 1px solid #1f2937;
+    margin-top: 70px;
 }
