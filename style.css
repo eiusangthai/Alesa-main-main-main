@@ -979,12 +979,7 @@ nav ul li a:hover,
         border: 20px solid #fff;
     }
 
-    .footer-background {
-        height: 190vh;
-        padding: 0;
-        margin: 0;
-        margin-top: 50px;
-    }
+
 
     /* =========================================================== */
     .photo-container {
@@ -1059,6 +1054,10 @@ nav ul li a:hover,
         position: absolute;
     }
 
+    .background-scroll {
+        height: 90vh;
+    }
+
     /* ============================== */
     .reasons-content {
         margin-top: 50px;
@@ -1101,6 +1100,13 @@ nav ul li a:hover,
     .footer-background .subscribe {
         margin-top: 20px;
         text-align: center;
+    }
+
+    .footer-background {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
     }
 
     .navbar {
