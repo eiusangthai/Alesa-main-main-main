@@ -1047,7 +1047,7 @@ nav ul li a:hover,
 
     /* ================================================= */
     .background-content {
-        position: sticky;
+        position: static;
     }
 
     .background-scroll a {
