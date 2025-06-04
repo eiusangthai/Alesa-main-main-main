@@ -1047,11 +1047,11 @@ nav ul li a:hover,
 
     /* ================================================= */
     .background-content {
-        position: absolute;
+        position: static;
     }
 
     .background-scroll a {
-        position: static;
+        position: absolute;
     }
 
     .background-content h2 {
