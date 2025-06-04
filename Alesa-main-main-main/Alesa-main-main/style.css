@@ -294,7 +294,7 @@ nav ul li a:hover,
 }
 
 .about .about-img .img-1 {
-    width: 95%;
+    width: 100%;
     height: 60%;
 }
 
@@ -456,8 +456,7 @@ nav ul li a:hover,
 .background-scroll .buttom {
     background-color: var(--buttom);
     border-radius: 50%;
-    padding: 50px 25px;
-    margin-right: 5%;
+    padding: 60px 30px;
 }
 
 .background-scroll .buttom:hover {
@@ -947,7 +946,7 @@ nav ul li a:hover,
 
     .overlay {
         background-color: rgba(0, 0, 0, 0.3);
-        height: 1150px;
+        height: 1000px;
     }
 
     .header {
@@ -956,8 +955,12 @@ nav ul li a:hover,
         background-size: cover;
         background-position: center;
         max-height: 100%;
-        height: 1150px;
+        height: 1000px;
         margin: 20px;
+    }
+
+    .header-middle-title {
+        font-size: 40px;
     }
 
     /* ========================================================== */
@@ -1019,6 +1022,48 @@ nav ul li a:hover,
         align-items: center;
     }
 
+    /* =================================== */
+    .our-villas h1 {
+        padding: 0 0;
+    }
+
+    /* ======================================== */
+    .about .middle,
+    .about .col-md-4 p {
+        text-align: center;
+    }
+
+    .about .about-img .img-1 {
+        width: 100%;
+        height: 75%;
+    }
+
+    .about .about-img .img-2 {
+        width: 100%;
+        height: 50vh;
+        margin-top: -100px;
+    }
+
+    .img-container .around {
+        position: absolute;
+        top: 240px;
+        left: 5%;
+    }
+
+    /* ================================================= */
+    .background-content {
+        position: static;
+    }
+
+    .background-scroll a {
+        position: absolute;
+    }
+
+    /* ============================== */
+    .reasons-content {
+        margin-top: 50px;
+        padding: 0 0;
+    }
 
     /* ============================================================ */
     a::before,
@@ -1061,4 +1106,5 @@ nav ul li a:hover,
     .navbar {
         text-align: right
     }
+
 }
