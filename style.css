@@ -750,6 +750,11 @@ nav ul li a:hover,
     color: var(--buttom);
 }
 
+.testimonial-3,
+.testimonial-4 {
+    display: none;
+}
+
 .card {
     padding: 50px;
     background: #192431;
@@ -899,6 +904,7 @@ nav ul li a:hover,
     font-size: 18px;
     color: #fff;
     padding-top: 45px;
+    padding-bottom: 45px;
     border-top: 1px solid #1f2937;
     margin-top: 70px;
 }
@@ -1064,6 +1070,23 @@ nav ul li a:hover,
         margin-top: 50px;
         padding: 0 0;
     }
+
+    /* =================================== */
+    .testimonials {
+        background: #0e1824;
+        padding: 0;
+        margin-top: 170px;
+        border: 20px solid #fff;
+    }
+
+    .testimonials .display {
+        display: none;
+    }
+
+    .testimonials .show {
+        display: block;
+    }
+
 
     /* ============================================================ */
     a::before,

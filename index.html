@@ -8,9 +8,7 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -202,6 +200,7 @@
                 </div>
             </div>
         </section>
+        <!-- Our Villas -->
         <section class="our-villas mt-5">
             <div class="container-xxl">
                 <div class="row text-center">
@@ -212,8 +211,8 @@
                         <h1>Explore Our Best Villas For An <span>Unforgettable</span> Vacation</h1>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-md-4">
+                <div class="row mt-5" id="ourVilla">
+                    <!-- <div class="col-md-4">
                         <div class="location">Denpasar</div>
                         <img src="./images/Our Villas - 1.jpg" alt="" style="width: 100%" />
                         <div class="start mt-4 mb-2">
@@ -238,13 +237,12 @@
                                 <div class="p">12 Guests</div>
                             </div>
                         </div>
-                        <p class="mt-2 line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                            luctus nec ullamcorper mattis, pulvinar</p>
+                        <p class="mt-2 line"></p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="price">$150.00<span class="date">/Night</span></div>
                             <div class="detail"><a href="#">More Detail</a></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -351,7 +349,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="row row-2">
                     <div class="col-md-3 col-12 photo-container">
@@ -396,8 +393,8 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <!-- Testimonial 1 -->
-                            <div class="col-md-3">
-                                <div class="card text-white">
+                            <div class="col-12 col-md-3">
+                                <div class="card">
                                     <div class="d-flex align-items-center mb-4">
                                         <img src="./images/Customer 1.jpg" class="rounded-circle me-3" width="50"
                                             height="50" />
@@ -415,46 +412,53 @@
                                 </div>
                             </div>
                             <!-- Testimonial 2 -->
-                            <div class="col-md-3">
-                                <div class="card bg-secondary text-white h-100 p-3">
+                            <div class="col-md-3 display">
+                                <div class="card">
                                     <div class="d-flex align-items-center mb-4">
-                                        <img src="https://i.pravatar.cc/50?img=2" class="rounded-circle me-3" width="50"
-                                            height="50" />
-                                        <div>
-                                            <h6 class="mb-0 fw-bold">Waldo Buckley</h6>
-                                            <small>Our Customer</small>
-                                        </div>
-                                    </div>
-                                    <p>"We were blown away by the tranquility and pool. Perfect getaway."</p>
-                                </div>
-                            </div>
-                            <!-- Testimonial 3 -->
-                            <div class="col-md-3">
-                                <div class="card bg-secondary text-white h-100 p-3">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <img src="https://i.pravatar.cc/50?img=3" class="rounded-circle me-3" width="50"
-                                            height="50" />
-                                        <div>
-                                            <h6 class="mb-0 fw-bold">Dale Mendoza</h6>
-                                            <small>Our Customer</small>
-                                        </div>
-                                    </div>
-                                    <p>"The rooms were spacious and the kids loved the play area."</p>
-                                </div>
-                            </div>
-
-                            <!-- Testimonial 4 -->
-                            <div class="col-md-3">
-                                <div class="card bg-secondary text-white h-100 p-3">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <img src="https://i.pravatar.cc/50?img=4" class="rounded-circle me-3" width="50"
+                                        <img src="./images/Customer 2.jpg" class="rounded-circle me-3" width="50"
                                             height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Alice Maxwell</h6>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"Perfect for our honeymoon. Sunset views and hot tub were amazing."</p>
+                                    <p>"My partner and I chose this villa for our honeymoon, and it was absolutely
+                                        perfect. The private terrace with a hot tub and the stunning views of the sunset
+                                        made for unforgettable evenings. The attention to detail in the villa's decor."
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Testimonial 3 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Custome 3.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Archer Corbyn</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"This villa provided a luxurious yet welcoming atmosphere that made our vacation
+                                        truly special. The gourmet kitchen allowed us to enjoy some home-cooked meals,
+                                        while the on-site restaurant served delicious local cuisine."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 4 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Customer 4.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Chelsea West</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"The service at this villa was exceptional from start to finish. Every request
+                                        was met with a smile and prompt action. The villa itself was beautifully
+                                        designed with modern amenities and stunning views from every window."</p>
                                 </div>
                             </div>
                         </div>
@@ -462,8 +466,8 @@
                     <div class="carousel-item active">
                         <div class="row">
                             <!-- Testimonial 1 -->
-                            <div class="col-md-3">
-                                <div class="card text-white">
+                            <div class="col-12 col-md-3 display">
+                                <div class="card">
                                     <div class="d-flex align-items-center mb-4">
                                         <img src="./images/Customer 1.jpg" class="rounded-circle me-3" width="50"
                                             height="50" />
@@ -481,46 +485,199 @@
                                 </div>
                             </div>
                             <!-- Testimonial 2 -->
-                            <div class="col-md-3">
-                                <div class="card bg-secondary text-white h-100 p-3">
+                            <div class="col-md-3 col-12 show">
+                                <div class="card">
                                     <div class="d-flex align-items-center mb-4">
-                                        <img src="https://i.pravatar.cc/50?img=2" class="rounded-circle me-3" width="50"
-                                            height="50" />
-                                        <div>
-                                            <h6 class="mb-0 fw-bold">Waldo Buckley</h6>
-                                            <small>Our Customer</small>
-                                        </div>
-                                    </div>
-                                    <p>"We were blown away by the tranquility and pool. Perfect getaway."</p>
-                                </div>
-                            </div>
-                            <!-- Testimonial 3 -->
-                            <div class="col-md-3">
-                                <div class="card bg-secondary text-white h-100 p-3">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <img src="https://i.pravatar.cc/50?img=3" class="rounded-circle me-3" width="50"
-                                            height="50" />
-                                        <div>
-                                            <h6 class="mb-0 fw-bold">Dale Mendoza</h6>
-                                            <small>Our Customer</small>
-                                        </div>
-                                    </div>
-                                    <p>"The rooms were spacious and the kids loved the play area."</p>
-                                </div>
-                            </div>
-
-                            <!-- Testimonial 4 -->
-                            <div class="col-md-3">
-                                <div class="card bg-secondary text-white h-100 p-3">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <img src="https://i.pravatar.cc/50?img=4" class="rounded-circle me-3" width="50"
+                                        <img src="./images/Customer 2.jpg" class="rounded-circle me-3" width="50"
                                             height="50" />
                                         <div>
                                             <h6 class="mb-0 fw-bold">Alice Maxwell</h6>
                                             <small>Our Customer</small>
                                         </div>
                                     </div>
-                                    <p>"Perfect for our honeymoon. Sunset views and hot tub were amazing."</p>
+                                    <p>"My partner and I chose this villa for our honeymoon, and it was absolutely
+                                        perfect. The private terrace with a hot tub and the stunning views of the sunset
+                                        made for unforgettable evenings. The attention to detail in the villa's decor."
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Testimonial 3 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Custome 3.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Archer Corbyn</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"This villa provided a luxurious yet welcoming atmosphere that made our vacation
+                                        truly special. The gourmet kitchen allowed us to enjoy some home-cooked meals,
+                                        while the on-site restaurant served delicious local cuisine."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 4 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Customer 4.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Chelsea West</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"The service at this villa was exceptional from start to finish. Every request
+                                        was met with a smile and prompt action. The villa itself was beautifully
+                                        designed with modern amenities and stunning views from every window."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <!-- Testimonial 1 -->
+                            <div class="col-12 col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="./images/Customer 1.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h2 class="mb-0 fw-bold">Dale Mendoza</h2>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        "Our family vacation at this villa exceeded all our expectations. The spacious
+                                        rooms and well-equipped kitchen made us feel right at
+                                        home. The kids loved the dedicated play area and the beach access, while we
+                                        enjoyed the spa services."
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Testimonial 2 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="./images/Customer 2.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Alice Maxwell</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"My partner and I chose this villa for our honeymoon, and it was absolutely
+                                        perfect. The private terrace with a hot tub and the stunning views of the sunset
+                                        made for unforgettable evenings. The attention to detail in the villa's decor."
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Testimonial 3 -->
+                            <div class="col-md-3 col-12 show">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Custome 3.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Archer Corbyn</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"This villa provided a luxurious yet welcoming atmosphere that made our vacation
+                                        truly special. The gourmet kitchen allowed us to enjoy some home-cooked meals,
+                                        while the on-site restaurant served delicious local cuisine."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 4 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Customer 4.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Chelsea West</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"The service at this villa was exceptional from start to finish. Every request
+                                        was met with a smile and prompt action. The villa itself was beautifully
+                                        designed with modern amenities and stunning views from every window."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <!-- Testimonial 1 -->
+                            <div class="col-12 col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="./images/Customer 1.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h2 class="mb-0 fw-bold">Dale Mendoza</h2>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        "Our family vacation at this villa exceeded all our expectations. The spacious
+                                        rooms and well-equipped kitchen made us feel right at
+                                        home. The kids loved the dedicated play area and the beach access, while we
+                                        enjoyed the spa services."
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Testimonial 2 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <img src="./images/Customer 2.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Alice Maxwell</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"My partner and I chose this villa for our honeymoon, and it was absolutely
+                                        perfect. The private terrace with a hot tub and the stunning views of the sunset
+                                        made for unforgettable evenings. The attention to detail in the villa's decor."
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Testimonial 3 -->
+                            <div class="col-md-3 display">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Custome 3.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Archer Corbyn</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"This villa provided a luxurious yet welcoming atmosphere that made our vacation
+                                        truly special. The gourmet kitchen allowed us to enjoy some home-cooked meals,
+                                        while the on-site restaurant served delicious local cuisine."</p>
+                                </div>
+                            </div>
+
+                            <!-- Testimonial 4 -->
+                            <div class="col-md-3 col-12 show">
+                                <div class="card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <img src="./images/Customer 4.jpg" class="rounded-circle me-3" width="50"
+                                            height="50" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold">Chelsea West</h6>
+                                            <small>Our Customer</small>
+                                        </div>
+                                    </div>
+                                    <p>"The service at this villa was exceptional from start to finish. Every request
+                                        was met with a smile and prompt action. The villa itself was beautifully
+                                        designed with modern amenities and stunning views from every window."</p>
                                 </div>
                             </div>
                         </div>
@@ -640,9 +797,14 @@
                 </div>
             </div>
         </footer>
-
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
     </body>
-    <script src="./index.js"></script>
+
 </body>
 
 </html>
